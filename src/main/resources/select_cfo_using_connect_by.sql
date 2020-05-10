@@ -7,9 +7,3 @@ FROM hierarchy h
        LEFT JOIN depart_add d_add ON depart.depart_id = d_add.depart_id AND d_add.add_type = 'CFO'
 START WITH nvl(h.parent_id, 0) = 0
 CONNECT BY h.parent_id = PRIOR h.child_id;
-/*
-Учесть:
-- разделитель
-- parent_id
-- длину SYS_CONNECT_BY_PATH = 4000
- */
