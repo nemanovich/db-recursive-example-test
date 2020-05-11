@@ -5,7 +5,7 @@
 
 Вариант с with: [select_cfo_using_with.sql](https://github.com/nemanovich/db-recursive-example-test/blob/master/src/main/resources/select_cfo_using_with.sql)
 
-Процедуры для 2 части лежат в [test/resources/db]([select_cfo_using_with.sql](https://github.com/nemanovich/db-recursive-example-test/blob/master/src/main/resources/select_cfo_using_with.sql))
+Процедуры для 2 части лежат в [test/resources/db](https://github.com/nemanovich/db-recursive-example-test/tree/master/src/test/resources/db)
 
 [Тесты](https://github.com/nemanovich/db-recursive-example-test/tree/master/src/test/java/com/github/nemanovich/db/oracle/recursive/tests)
 
