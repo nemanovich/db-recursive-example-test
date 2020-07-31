@@ -1,5 +1,8 @@
 # Работа с иерархическими запросами Oracle
 
+## Задача
+https://gist.github.com/nemanovich/5d91d041d2a0088b0c3dc7005f38c12e
+
 ## Навигация
 Вариант с использованием connect-by: [select_cfo_using_connect_by.sql](https://github.com/nemanovich/db-recursive-example-test/blob/master/src/main/resources/select_cfo_using_connect_by.sql)
 
